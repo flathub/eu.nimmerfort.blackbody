@@ -30,21 +30,21 @@
       "buildsystem": "meson",
       "name": "blackbody",
       "config-opts": [
-      	"--buildtype=release"
+        "--buildtype=release"
       ],
       "sources": [
-	"Cargo-sources.json",
+        "Cargo-sources.json",
         {
           "type": "git",
           "url": "https://bitbucket.org/nimmerwoner/blackbody/",
-          "tag": "release-1.2.0",
-          "commit": "5e751bfd094d951916bf4374e5f0c0523370276a"
+          "tag": "release-1.3.0",
+          "commit": "78a60189ce8c81279bcd7472f26ac02fe0841bee"
         }
       ]
     }
   ],
   "runtime": "org.gnome.Platform",
-  "runtime-version": "3.38",
+  "runtime-version": "41",
   "sdk": "org.gnome.Sdk",
   "sdk-extensions": [
     "org.freedesktop.Sdk.Extension.rust-stable"
