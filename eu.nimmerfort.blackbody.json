@@ -1,5 +1,11 @@
 {
   "app-id": "eu.nimmerfort.blackbody",
+  "runtime": "org.gnome.Platform",
+  "runtime-version": "47",
+  "sdk": "org.gnome.Sdk",
+  "sdk-extensions": [
+    "org.freedesktop.Sdk.Extension.rust-stable"
+  ],
   "build-options": {
     "append-path": "/usr/lib/sdk/rust-stable/bin",
     "env": {
@@ -43,11 +49,5 @@
         }
       ]
     }
-  ],
-  "runtime": "org.gnome.Platform",
-  "runtime-version": "45",
-  "sdk": "org.gnome.Sdk",
-  "sdk-extensions": [
-    "org.freedesktop.Sdk.Extension.rust-stable"
   ]
 }
