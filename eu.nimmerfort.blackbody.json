@@ -18,13 +18,7 @@
     "--device=dri",
     "--share=ipc",
     "--socket=fallback-x11",
-    "--socket=wayland",
-    "--filesystem=xdg-pictures:ro",
-    "--filesystem=xdg-download:ro",
-    "--filesystem=/run/media:ro",
-    "--talk-name=org.gtk.vfs.*",
-    "--filesystem=xdg-run/gvfs",
-    "--filesystem=xdg-run/gvfsd"     
+    "--socket=wayland"
   ],
   "modules": [
     {
@@ -39,8 +33,8 @@
         {
           "type": "git",
           "url": "https://bitbucket.org/nimmerwoner/blackbody/",
-          "tag": "release-2.0.0",
-          "commit": "ee9e2e79871eb3eb98d1370d6495e0f7c4dc5714"
+          "tag": "release-2.1.0",
+          "commit": "0e322fcfe37c3097737012e21647475150af2d36"
         }
       ]
     }
