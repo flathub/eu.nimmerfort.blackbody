@@ -33,8 +33,8 @@
         {
           "type": "git",
           "url": "https://bitbucket.org/nimmerwoner/blackbody/",
-          "tag": "release-2.2.0",
-          "commit": "5ab0e04fd22460b89c52bc7bb1103d69faccb0b9"
+          "tag": "release-2.3.0",
+          "commit": "f817a566473361f787755ca561f8d586eafc6ab4"
         }
       ]
     }
